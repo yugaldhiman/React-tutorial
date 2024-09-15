@@ -1,0 +1,15 @@
+.mainBox{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.childBox{
+    width: 24%;
+    height: 30vh;
+    margin: 1vh;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    border: 2px solid black;
+}
