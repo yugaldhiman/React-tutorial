@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  padding: 2% 5%;
+  background-color: #404040;
+}
+
+.head a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+
+
+nav {
+  padding: 1% 5%;
+  background-color: tomato;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}
+
+.new {
+  color: green;
+  padding-left: 1%;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-height: 70vh;
+}
+
+article {
+  width: 74%;
+  background-color: white;
+  margin-bottom: 2%;
+  padding-left: 1%;
+}
+
+
+aside {
+  width: 25%;
+  background-color: wheat;
+}
+
+.asideImage{
+  height: 35vh;
+  width: 100%;
+}
+
+footer {
+  padding: 1.50% 5%;
+  background-color: #404040;
+}
+
+footer h4 {
+  text-align: center;
+  color: white;
+}
