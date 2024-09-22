@@ -1,10 +1,8 @@
-
-import Template from "./component/Class-7/Template"
-
+import ClassComponent from './component/Class-8/ClassComponent'
 function App() {
   return (
     <>
-     <Template/>
+     <ClassComponent title="ClassComponent"/>
     </>
   )
 }
