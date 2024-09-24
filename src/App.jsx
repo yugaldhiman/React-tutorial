@@ -1,9 +1,10 @@
-import ClassComponent from './component/Class-8/ClassComponent'
+import Arrowfunction from './component/Class-9/Arrowfunction'
 function App() {
   return (
     <>
-     <ClassComponent title="ClassComponent"/>
+    <Arrowfunction data = "yugal"/>
     </>
   )
 }
+
 export default App
