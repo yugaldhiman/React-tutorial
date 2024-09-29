@@ -1,0 +1,95 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.active {
+  color: green;
+}
+
+.Header {
+  background-color: gray;
+  font-size: 3vh;
+  height: 10vh;
+  width: 100%;
+}
+
+.Header ul {
+  padding: 1.5%;
+  display: flex;
+  gap: 10%;
+}
+
+.Header ul li {
+  list-style: none;
+}
+
+
+
+/* Html page css */
+
+.htmlMain {
+  display: flex;
+}
+
+.htmlAside {
+  background-color: lightgray;
+  height: 90vh;
+  width: 20%;
+}
+
+.htmlAside ul {
+  padding: 20%;
+}
+
+.htmlAside ul li {
+  list-style: none;
+  font-size: 2vh;
+}
+
+.htmlMain article {
+  background-color: whitesmoke;
+  height: 90vh;
+  width: 80%;
+}
+
+.p {
+  margin: 2%;
+}
+
+.p span {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+
+
+/* Css page css */
+
+
+.cssAside {
+  background-color: lightgray;
+  height: 90vh;
+  width: 20%;
+}
+
+.cssMain {
+  display: flex;
+}
+
+.cssAside ul {
+  padding: 20%;
+}
+
+.cssAside ul li {
+  list-style: none;
+  font-size: 2vh;
+}
+
+.cssArticle {
+  background-color: whitesmoke;
+  height: 90vh;
+  width: 80%;
+}
+

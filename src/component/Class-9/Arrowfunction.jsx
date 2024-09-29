@@ -3,7 +3,7 @@ import React from 'react'
 const Arrowfunction = (props) => {
     return (
         <>
-          <h1>hello {props.data}</h1>
+          <h1>Hello {props.data}</h1>
         </>
     )
 }

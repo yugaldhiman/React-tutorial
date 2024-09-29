@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+ul {
+    position: absolute;
+    top: 9.5vh;
+    left: 7rem;
+}
+
+ul li {
+    list-style: none;
+    margin: 5%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    border: 15px solid white;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
+
+#text {
+    position: absolute;
+    top: 5vh;
+    left: 10%;
+    width: 80%;
+    height: 70vh;
+    border-radius: 20px;
+}
