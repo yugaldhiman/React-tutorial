@@ -1,10 +1,10 @@
 import React from 'react'
-import UsestateHook from './component/Class-11/UsestateHook'
+import Card from './component/Class-11/visiting Card/Card'
 
 function App() {
   return (
     <div>
-     <UsestateHook/>
+      <Card />
     </div>
   )
 }
