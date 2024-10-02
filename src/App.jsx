@@ -1,10 +1,11 @@
 import React from 'react'
-import Card from './component/Class-11/visiting Card/Card'
+import MulltiInput from './component/Class-11/MulltiInput'
+
 
 function App() {
   return (
     <div>
-      <Card />
+   <MulltiInput/>
     </div>
   )
 }

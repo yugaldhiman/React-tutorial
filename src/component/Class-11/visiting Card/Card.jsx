@@ -20,8 +20,8 @@ const Card = () => {
                         </div>
                         <div id="text_bottom">
                             <h4 id="h2">address:</h4>
-                            <p>ponjagutta, hyderabad, AP Ph: +91-40-2307 3692</p>
-                            <p>Email forcehyd@gmail.com, www.cfcabcd.com</p>
+                            <p>Muzaffarnagar, uttar pradesh, Ph: +91-96-9090 0114</p>
+                            <p>Email: rajan&company@gmail.com, www.caoffice.com</p>
                         </div>
                         <div id="main_div_child_1">
                             <img src={img} alt="error" />
@@ -42,10 +42,10 @@ const Card = () => {
                         placeholder='Enter Your Name'
                         onChange={Event => setYourname({ yourName, uName: Event.target.value })}
                     />
-                     <input className='myName'
-                        type="text"
+                    <input className='myName'
+                        type="tel"
                         value={number.myNumber}
-                        placeholder='Enter Your Name'
+                        placeholder='Enter Your Number'
                         onChange={Event => setNumber({ number, myNumber: Event.target.value })}
                     />
                 </div>
