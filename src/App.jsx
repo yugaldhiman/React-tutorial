@@ -1,11 +1,11 @@
 import React from 'react'
-import MulltiInput from './component/Class-11/MulltiInput'
+import Calculater from './component/Class-11/calculetar/Calculater'
 
 
 function App() {
   return (
     <div>
-   <MulltiInput/>
+ <Calculater/>
     </div>
   )
 }

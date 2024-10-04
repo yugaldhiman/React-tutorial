@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const MulltiInput = () => {
+const SpreedOpretar = () => {
     const [uName, setUname] = useState({obj1:"",obj2:""})
     return (
         <>
@@ -19,4 +19,4 @@ const MulltiInput = () => {
     )
 }
 
-export default MulltiInput
+export default SpreedOpretar
