@@ -1,19 +1,70 @@
-*{
+* {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
-p{
-    padding: 1%;
+
+.mainBox {
+    margin: 10% 40%;
+    border: 2px solid black;
+    width: 20%;
+    height: 45vh;
+    border-radius: 10px;
+    background-color: rgb(93, 93, 161);
 }
-h1{
-    padding: 1%;
+
+.inputBox {
+    width: 100%;
+    height: 16vh;
+    border-radius: 10px;
 }
-input{
-    padding: 1%;
+
+.input {
+    width: 80%;
+    height: 6vh;
+    padding-left: 2%;
+    font-size: 40px;
+    margin: 1% 10%;
+    border: none;
+    background-color: whitesmoke;
+    border-radius: 10px;
 }
-.btn{
-    margin-left: 2%;
-    padding: 1%;
-    font-size: 2rem;
-    border-radius: 10px ;
+
+.input:hover {
+    cursor: pointer;
+}
+
+.resaltBox {
+    width: 80%;
+    height: 6vh;
+    font-size: 40px;
+    margin: 1% 10%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding-left: 10%;
+}
+
+.binBox {
+    width: 100%;
+    height: 22vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    width: 20%;
+    height: 10vh;
+    font-size: 3rem;
+    border-radius: 50%;
+    border: none;
+    background-color: grey;
+    color: white;
+}
+
+.btn:hover {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
 }

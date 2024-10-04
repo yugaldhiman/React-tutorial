@@ -103,19 +103,21 @@ const Calculater = () => {
         );
     }
     return (
-        <>
-            <p><input type="text" value={uValue.number1} onChange={InputFun1} /></p>
-            <p><input type="text" value={uValue.number2} onChange={InputFun2} /></p>
-            <h1>Resalt = {uValue.resalt}</h1>
-            <p>
+        <div className='mainBox'>
+            <div className='inputBox'>
+                <input className='input' type="text" value={uValue.number1} onChange={InputFun1} />
+                <br />
+                <br />
+                <input className='input' type="text" value={uValue.number2} onChange={InputFun2} />
+            </div>
+            <div className='resaltBox'>{uValue.resalt}</div>
+            <div className='binBox'>
                 <button className='btn' onClick={Sum}>+</button>
                 <button className='btn' onClick={Minus}>-</button>
-            </p>
-            <p>
                 <button className='btn' onClick={Mullti}>*</button>
                 <button className='btn' onClick={Division}>/</button>
-            </p>
-        </>
+            </div>
+        </div>
     )
 }
 
