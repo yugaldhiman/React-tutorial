@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
 import './Allfile.css'
 
 function Html() {
 
+  useEffect(() => {
+    document.title = "HTML-PAGE"
+  }, [])
 
   return (
     <>

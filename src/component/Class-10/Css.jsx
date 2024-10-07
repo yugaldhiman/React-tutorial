@@ -1,7 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { NavLink, Outlet } from 'react-router-dom'
 
 function Css() {
+
+  useEffect(()=>{
+    document.title="CSS-PAGE"
+  },[])
+
   return (
     <>
       <main className='cssMain'>
