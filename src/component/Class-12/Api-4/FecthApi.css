@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainBox{
+    width: 33%;
+   margin-left: 1%;
+   border: 2px solid black;
+   margin-top: 1%;
+}
+.articlBox{
+    width: 100%;
+}
