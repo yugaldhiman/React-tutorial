@@ -1,14 +1,21 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-.mainBox{
+
+.mainBox {
     width: 33%;
-   margin-left: 1%;
-   border: 2px solid black;
-   margin-top: 1%;
+    margin-left: 1%;
+    border: 2px solid black;
+    margin-top: 1%;
 }
-.articlBox{
+
+.articlBox {
+    width: 100%;
+}
+
+.listBox {
+    flex-wrap: wrap;
     width: 100%;
 }

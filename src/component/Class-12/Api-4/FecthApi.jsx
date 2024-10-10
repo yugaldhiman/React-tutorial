@@ -22,9 +22,9 @@ const FecthApi = () => {
         </div>
     </div>)
     return (
-        <>
+        <div className='listBox'>
             {list}
-        </>
+        </div>
     )
 }
 
