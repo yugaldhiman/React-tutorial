@@ -1,11 +1,12 @@
 import React from 'react'
-import FetchApi from './component/Class-12/Api-6/FetchApi'
+import FetchWithDb from './component/Class-13/FetchWithDb'
+
 
 
 function App() {
   return (
     <>
-      <FetchApi/>
+      <FetchWithDb/>
     </>
   )
 }

@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100%;
+
+}
+
+.main-Box {
+    width: 15%;
+    height: 20vh;
+    border: 1px solid red;
+    padding-top: 2%;
+    margin-bottom: 1%;
+    justify-content: center;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 2%;
+}
+
+.inputBox {
+    width: 20%;
+    height: 25vh;
+    border: 1px solid black;
+    padding-top: 1%;
+    margin-bottom: 1%;
+    justify-content: center;
+    text-align: center;
+}
+
+.inputBox input {
+    width: 80%;
+    margin-bottom: 4%;
+    padding: 2%;
+}
+
+.inputBox button {
+    padding: 3%;
+    border-radius: 10px;
+}
