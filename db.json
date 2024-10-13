@@ -1,40 +1,45 @@
 {
-    "student": [
-        {
-            "id": "1",
-            "name": "yugal",
-            "collage": "dav collage",
-            "course": "mern full stack"
-        },
-        {
-            "id": "2",
-            "name": "rajan",
-            "collage": "sd collage",
-            "course": "java full stack"
-        },
-        {
-            "id": "3",
-            "name": "himanshu",
-            "collage": "shri ram collage",
-            "course": "python full stack"
-        },
-        {
-            "id": "4",
-            "name": "nikhil",
-            "collage": "rudra collage",
-            "course": "mern full stack"
-        },
-        {
-            "id": "5",
-            "name": "meenu",
-            "collage": "rudra collage",
-            "course": "mern full stack"
-        },
-        {
-            "id": "6",
-            "name": "ladu",
-            "collage": "rudra collage",
-            "course": "mern full stack"
-        }
-    ]
+  "student": [
+    {
+      "id": "1",
+      "name": "yugal",
+      "collage": "dav collage",
+      "course": "mern full stack"
+    },
+    {
+      "id": "2",
+      "name": "rajan",
+      "collage": "sd collage",
+      "course": "java full stack"
+    },
+    {
+      "id": "3",
+      "name": "himanshu",
+      "collage": "shri ram collage",
+      "course": "python full stack"
+    },
+    {
+      "id": "4",
+      "name": "nikhil",
+      "collage": "rudra collage",
+      "course": "mern full stack"
+    },
+    {
+      "id": "5",
+      "name": "meenu",
+      "collage": "rudra collage",
+      "course": "mern full stack"
+    },
+    {
+      "id": "6",
+      "name": "ladu",
+      "collage": "rudra collage",
+      "course": "mern full stack"
+    },
+    {
+      "id": "3f5a",
+      "name": "yugal dhiman",
+      "collage": "xyx"
+    }
+  ]
 }
