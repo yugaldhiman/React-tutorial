@@ -1,10 +1,13 @@
 import React from 'react'
-import OnePageAplication from './component/Class-14/OnePageAplication.jsx'
+import Acomp from './component/Class-15/multiComp/Acomp'
+import Bcomp from './component/Class-15/multiComp/Bcomp'
 
 const App = () => {
+  let data = " = Ducat India"
   return (
     <>
-      <OnePageAplication />
+      <Acomp data={data}/>
+      <Bcomp data={data}/>
     </>
   )
 }
