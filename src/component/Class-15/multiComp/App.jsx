@@ -1,6 +1,6 @@
 import React from 'react'
-import Acomp from './component/Class-15/multiComp/Acomp'
-import Bcomp from './component/Class-15/multiComp/Bcomp'
+import Acomp from './Acomp'
+import Bcomp from './Bcomp'
 
 const App = () => {
   let data = " = Ducat India"
