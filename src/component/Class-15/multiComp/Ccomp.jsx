@@ -1,9 +1,11 @@
-import React from 'react'
+import React,{useContext} from 'react'
+import { UserContext } from '../../../App';
 
-const Ccomp = (props) => {
+const Ccomp = () => {
+  let user = useContext(UserContext);
   return (
     <>
-      <h1>C{props.data}</h1>
+      <h1>{user}</h1>
     </>
   )
 }

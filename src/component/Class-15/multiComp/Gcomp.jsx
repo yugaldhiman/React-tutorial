@@ -1,12 +1,10 @@
 import React from 'react'
 import Hcomp from './Hcomp'
 
-const Gcomp = (props) => {
-    let data = props.data
+const Gcomp = () => {
   return (
     <>
-    <h1>Gcomp</h1>
-      <Hcomp data={data}/>
+      <Hcomp />
     </>
   )
 }

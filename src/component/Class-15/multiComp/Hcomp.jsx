@@ -1,9 +1,11 @@
-import React from 'react'
+import React,{useContext} from 'react'
+import { UserContext } from '../../../App';
 
-const Hcomp = (props) => {
+const Hcomp = () => {
+  let user = useContext(UserContext);
   return (
     <>
-     <h1>H{props.data}</h1> 
+      <h1>{user}</h1>
     </>
   )
 }
