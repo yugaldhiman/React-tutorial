@@ -1,9 +1,9 @@
 import React from 'react'
-import Reduce from './component/Class-16/Reduce'
+import UseRaducer from './component/Class-17/UseRaducer'
 const App = () => {
   return (
     <>
-      <Reduce/>
+      <UseRaducer/>
     </>
   )
 }
