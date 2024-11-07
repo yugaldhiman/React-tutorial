@@ -1,14 +1,9 @@
 import React from 'react'
-import Acomp from './component/Class-15/multiComp/Acomp'
-import Bcomp from './component/Class-15/multiComp/Bcomp'
-export const UserContext = React.createContext()
+import Reduce from './component/Class-16/Reduce'
 const App = () => {
   return (
     <>
-      <UserContext.Provider value={" = Ducat India 1"}>
-        <Acomp/>
-      </UserContext.Provider>
-      <Bcomp />
+      <Reduce/>
     </>
   )
 }
