@@ -14,7 +14,7 @@ const LocalStorage = () => {
   }
   return (
     <>{
-      getEmail && getPassword ?
+      getEmail && getPassword ? 
         <Home /> :
 
         <form onSubmit={handlarSubmit}>
