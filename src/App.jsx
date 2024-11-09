@@ -1,9 +1,9 @@
 import React from 'react'
-import UseRaducer from './component/Class-17/UseRaducer'
+import LocalStorage from './component/Class-18/LocalStorage'
 const App = () => {
   return (
     <>
-      <UseRaducer/>
+      <LocalStorage/>
     </>
   )
 }
