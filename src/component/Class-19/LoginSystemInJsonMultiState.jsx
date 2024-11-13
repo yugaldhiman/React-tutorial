@@ -1,7 +1,8 @@
 import axios from 'axios';
 import React, { useState } from 'react'
+import { BiCaretRight } from "react-icons/bi";
 
-const LoginSystemInJsonMultiState = () => {
+const LoginSystemInJsonMultiState = (props) => {
   const [password, setPassword] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -35,21 +36,19 @@ const LoginSystemInJsonMultiState = () => {
     }
   }
 
-
-
   return (
     <>
       <div>
-        <h2>Login</h2>
+        <h2>Login {props.data}</h2>
         <form onSubmit={handleLogin}>
           <div>
-            <label>UserEmail</label>
+            <label>UserEmail {<BiCaretRight />} </label>
             <input type="text"
               value={email}
               onChange={(Event) => setEmail(Event.target.value)} />
           </div>
           <div>
-            <label>UserPassword</label>
+            <label>UserPassword {<BiCaretRight />} </label>
             <input type="text"
               value={password}
               onChange={(Event) => setPassword(Event.target.value)} />
