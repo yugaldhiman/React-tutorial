@@ -1,11 +1,9 @@
 import React from 'react'
-import LoginSystemInJsonMultiState from './component/Class-19/LoginSystemInJsonMultiState'
-import LoginSystemInSingleState from './component/Class-19/LoginSystemInSingleState'
+import LoginAndLogout from './component/Class-19/LoginAndLogout'
 const App = () => {
   return (
     <>
-     <LoginSystemInJsonMultiState data="MultiuseState"/>
-     <LoginSystemInSingleState data="SingleuseState"/>
+     <LoginAndLogout data="Login and Logout"/>
     </>
   )
 }
